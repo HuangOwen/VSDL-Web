@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>HKUST Vision and System Design Lab</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<div class="site-content">
+			<header class="site-header collapsed-nav" data-bg-image="">
+				<div class="container">
+					<div class="header-bar">
+						<a href="index.html" class="branding">
+								<h1 class="site-title">HKUST Vision and System Design Lab</h1>
+						</a>
+
+						<nav class="main-navigation">
+							<button class="menu-toggle"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+								<li class="menu-item"><a href="index.html">Home</a></li>
+								<li class="menu-item"><a href="people.html">People</a></li>
+								<li class="menu-item"><a href="publication.html">Publication</a></li>
+								<li class="menu-item"><a href="research-vision.html">Research</a></li>
+								<li class="menu-item"><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+			</header>
+			
+			<div class="page-head" data-bg-image="images/background/hkust.jpg">
+				<div class="container">
+					<h2 class="page-title">Welcome</h2>
+				</div>
+			</div>
+
+			<main class="main-content">
+				<div class="fullwidth-block">
+					<div class="container">
+						<div class="row">
+							<nav id="primary_nav_wrap">
+								<ul>
+								  <li><a a href="research-vision.html"><h1>Vision-driven Technologies & Applications</h1></a>
+								  </li>
+								  <li><a a href="research-system.html"><h1 style="color:LightGray;">Emerging Hardware Systems & Design Technologies</h1></a>
+								  </li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="container">
+						<p><HR size="5"></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-4">
+									<img src="research/SUMMER/image/binarization/binarization.png" class="img-responsive" alt="" style="width:360px;height:180px;">
+								</div>
+								<div class="col-md-8">
+									<h3><a href="./research/SUMMER/BRN.html">Energy Efficient Bitwise Network Design for Vision Tasks</a></h3>
+									<div style="text-align:justify">
+										<p>Large amount of memory and computation in current Convolution Neural Networks (CNNs) impedes their implementation
+										in embedded systems. A bitwise CNN with weights and activations in a convolution layer being either -1 or 1 offers a 
+										promising solution to compressing the model size and speeding up inference. But current solution of bitwise CNN 
+										encounters an accuracy drop. In order to alleviate that, we proposed to use a shortcut propagating the real-valued 
+										information that is already computed in the 1-bit neural network. By further enhancing the training techniques of 
+										binary networks, we achieved 56.4% accuracy on ImageNet dataset, much higher than XNOR-net with even fewer real-valued 
+										parameters.</p>
+									</div>
+								</div>
+							</div> <!-- .container -->
+						</div>
+						<p><HR size="5"></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-7">
+									<h3><a href="./research/YAN/DL-MIA.html">Vairation-/Uncertaity-Aware Medical Image Analysis</a> </h3>
+									<div style="text-align:justify">
+										<p>
+										One reason for the success of deep learning in natural image data is the availability of
+										large-scale labeled data. However, labeled medical image data often is limited, as annotating
+										medical image data requires extensive human efforts and expertise. Consequently,
+										any variation and uncertainty in medical image data would affect the training process,
+										and the capacity of deep learning usually cannot be fully explored. In this project, we propose
+										to improve deep learning performance by addressing variations and uncertainties in
+										medical image data.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<img src="research/YAN/image/DL-MIA.jpg" class="img-responsive" alt="" style="width:460px;height:160px;">
+								</div>
+							</div> <!-- .container -->
+						</div>
+
+						<p></p><hr size="5"><p></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-5">
+									<img src="./research/NICHOLAS/image/3d_skeleton/tool.gif" class="img-responsive" alt="" style="width:320px;height:220px;">
+								</div>
+								<div class="col-md-7">
+									<h3><a href="https://github.com/Nicholasli1995/EvoSkeleton">Learning-based Monocular 3D Human Pose Estimation</a></h3>
+									<div style="text-align:justify">
+										<p>Obtaining 3D information from RGB images plays a significant role in machine
+											intelligence. This project utilizes machine learning techniques to estimate
+											3D human pose from a single RGB image. 3D annotation is hard to obtain and
+											can be biased due to the limitation of data collection, which negatively
+											influences model generalization in unseen environments. To cope with this
+											problem, a novel data augmentation approach is proposed to improve model
+											generalization by evolutionary operators. Apart from the data augmentation
+											method, the proposed cascaded model achieves state-of-the-art performance
+											for this task. A new dataset for in-the-wild rare human poses and an
+											interactive annotation tool are released. This work has been accepted by
+											CVPR 2020 as oral presentation. The project website can be reached by
+											clicking the title. </p>
+									</div>
+								</div>
+							</div> <!-- .container -->
+						</div>
+
+						<p></p><hr size="5"><p></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-7">
+									<h3><a href="./research/JEFFREY/hohcs.html">Automated Vision-Based Wellness Analysis of Elderly Care Center Citizens</a></h3>
+									<div style="text-align:justify">
+										<p>Elderly care is important yet very expensive to perform. The demand for quality care is increasing but the manpower is not sufficient. Recent Covid-19 pandemic further highlights the gap, where there have been several viral outbreaks in the elderly care-center because workers need to do their shift across care centers. We aim to assist the health workers by providing health insights through automating the wellbeing analysis of elderly citizen from long-term video data.   </p>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<img src="./research/JEFFREY/images/Picture0.png" class="img-responsive" alt="" style="width:320px;height:220px;">
+								</div>
+							</div> <!-- .container -->
+						</div>
+
+
+						<!--<p><HR size="5"></p>-->
+						<!--<div class="row">-->
+							<!--<div class="col-offset-1 col-md-60 col-sm-40">-->
+								<!--<div class="col-md-4">-->
+									<!--<img src="research/NICHOLAS/image/face/face.jpg" class="img-responsive" alt="" style="width:320px;height:220px;">-->
+								<!--</div>-->
+								<!--<div class="col-md-8">-->
+									<!--<h3>Real-time Facial Information Extraction, Analysis and Utilization</h3>-->
+									<!--<div style="text-align:justify">-->
+										<!--<p>Obtaining desired semantic information from facial images plays a significant role in applications such as face -->
+										<!--recognition, head pose estimation and real-time animation. This project investigates how to improve the state-of-the-art-->
+										<!--techniques (e.g. face detection and face alignment) in terms of accuracy, time efficiency and robustness to perturbation.-->
+										<!--We also explore novel solutions to emerging problems and applications on mobile platforms. </p>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div> &lt;!&ndash; .container &ndash;&gt;-->
+						<!--</div>-->
+						<p><HR size="5"></p>
+					</div>
+					<p></p>
+				</div>
+
+				<div class="fullwidth-block">
+					<div class="container">
+						<div class="row">
+							<nav id="secondary_nav_wrap">
+								  <a a href="research-vision.html"><h1>Completed Projects</h1></a>
+
+							</nav>
+						</div>
+					</div>
+					<div class="container">
+
+						<p><HR size="5"></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-8">
+									<h3><a href="./research/CHONG/redbee.html">REDBEE: A Visual-Inertial Drone System for Real-Time Moving Object Detection</a> </h3>
+									<div style="text-align:justify">
+										<p>Aerial surveillance and monitoring demand both real-time and robust motion detection from a moving camera. Most
+										existing techniques for drones involve sending a video data streams back to a ground station with a high-end desktop
+										computer or server. These methods share one major drawback: data transmission is subjected to considerable delay and
+										possible corruption. Onboard computation can not only overcome the data corruption problem but also increase the range
+										of motion. Unfortunately, due to limited weight-bearing capacity, equipping drones with computing hardware of high
+										processing capability is not feasible. Therefore, developing a motion detection system with real-time performance and
+										high accuracy for drones with limited computing power is highly desirable.</p>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<img src="research/CHONG/image/redbee/redbee.jpg" class="img-responsive" alt="" style="width:360px;height:220px;">
+								</div>
+							</div> <!-- .container -->
+						</div>
+						<p><HR size="5"></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-5">
+									<img src="research/CHONG/image/libLDB/libLDB.jpg" class="img-responsive" alt="" style="width:450px;height:250px;">
+								</div>
+								<div class="col-md-7">
+									<h3><a href="./research/CHONG/libLDB.html">libLDB: A Library for Extracting Ultrafast and Distinctive Binary Feature Description</a> </h3>
+									<div style="text-align:justify">
+										<p>LDB (Local Difference Binary) is a highly efficient, robust and distinctive binary descriptor. The
+										distinctiveness and robustness of LDB are achieved through 3 steps. First, LDB captures the internal
+										patterns of each image patch through a set of binary tests, each of which compares the average intensity
+										Iavg and first-order gradients, dx and dy, of a pair of image grids within the patch (as shown in (a) and (b)).
+										Second, LDB employs a multiple gridding strategy to capture the structure at different spatial granularities
+										(as shown in (c)). Coarse-level grids can cancel out high-frequency noise while fine-level grids can capture
+										detailed local patterns, thus enhancing distinctiveness. Third, LDB selects a subset of highly-variant and
+										distinctive bits and concatenates them to form a compact and unique LDB descriptor.</p>
+									</div>
+								</div>
+							</div> <!-- .container -->
+						</div>
+						<p><HR size="5"></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-6">
+									<h3><a href="./research/CHONG/siamese.html">Local Feature Descriptor Learning with Adaptive Siamese Network</a> </h3>
+									<div style="text-align:justify">
+										<p>Although the recent progress in the deep neural network has led to the development of learnable local feature
+										descriptors, there is no explicit answer for estimation of the necessary size of a neural network. Specifically, the
+										local feature is represented in a low dimensional space, so the neural network should have more compact structure. The
+										small networks required for local feature descriptor learning may be sensitive to initial conditions and learning
+										parameters and more likely to become trapped in local minima. In order to address the above problem, we introduce an
+										adaptive pruning Siamese Architecture based on neuron activation to learn local feature descriptors, making the network
+										more computationally efficient with an improved recognition rate over more complex networks.</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<img src="research/CHONG/image/siamese/siamese.png" class="img-responsive" alt="" style="width:555px;height:260px;">
+								</div>
+							</div> <!-- .container -->
+						</div>
+						<p><HR size="5"></p>
+						<div class="row">
+							<div class="col-offset-1 col-md-60 col-sm-40">
+								<div class="col-md-5">
+									<img src="research/CHONG/image/DC/DC.png" class="img-responsive" alt="" style="width:440px;height:220px;">
+								</div>
+								<div class="col-md-7">
+									<h3><a href="https://www.chonghuang.net/drone-based-cinematography">Drone-based Cinematography</a></h3>
+									<div style="text-align:justify">
+										<p>Affordable consumer drones have made capturing aerial footage more convenient and accessible. However, shooting cinematic motion videos using a drone is challenging because it requires users to analyze dynamic scenarios while operating the controller. Our task is to develop an autonomous drone cinematography system to capture cinematic videos of human motion. To the end, we designed two autonomous drone cinematography systems using both heuristic-based methods and learning-based methods.</p>
+									</div>
+								</div>
+							</div> <!-- .container -->
+						</div>
+						<p><HR size="5"></p>
+					</div>
+					<p></p>
+				</div>
+			
+
+			</main> <!-- .main-content -->
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
